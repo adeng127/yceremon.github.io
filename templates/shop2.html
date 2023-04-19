@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/base.css">
+    <link rel="stylesheet" href="./static/css/common.css">
+    <link rel="stylesheet" href="./static/css/shop.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="top1"></div>
+    <div class="p1"></div>
+    
+    <div class="right">
+        <div class="p"></div>
+        <div class="text">
+            <h2>【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02<br>&nbsp;Low男子轻量高回弹篮球外场鞋</h2>
+            <hr> 
+            <h3 ><strong>￥1399.00</strong></h3>
+            <h4 ><del>￥1499.00</del></h4>
+           <p>优惠：您已参与清明节优惠活动</p> 
+        </div>  
+        <div class="clp">
+            <a>选择颜色:</a><br>
+            <ul>
+                <li><button class="whitel" onclick="wl()" id="wh">白色</button></li>
+                <li><button class="blackl" onclick="bl()" id="bh">黑色</button></li>
+                <li><button class="redl" onclick="rl()" id="rh">红色</button></li>
+                <li><button class="bluel" onclick="ul()" id="uh">蓝色</button></li>
+            </ul>
+        </div>
+        <div class="clp2">
+            <a>码数:</a>
+            <ul>
+                <li><button class="n1l" onclick="n1()" id="nh1">40</button></li>
+                <li><button class="n2l" onclick="n2()" id="nh2">41</button></li>
+                <li><button class="n3l"   onclick="n3()" id="nh3">42</button></li>
+                <li><button class="n4l" onclick="n4()" id="nh4">43</button></li>
+            </ul>
+        </div>
+        <div class="num">   
+            <a>数量</a>
+            <button id="reduce" onclick="jian()">-</button>
+            <input type="text" id="inp" class="numinp" value="1">
+            <button id="add" onclick="jia()">+</button> 
+    
+        </div>  
+        <div class="clp3">
+            <input type="button" value="立即购买" class="insh">
+            <input type="button" value="加购物车" class="incar">
+        </div>
+       
+        
+    </div>
+    <div class="left">
+        <div class="small">
+            <ul>
+                <li class="active"><img src="./static/image/shop2t1.webp" alt=""></li>
+                <li><img src="./static/image/shop2t2.webp" alt=""></li>
+                <li><img src="./static/image/shop2t3.webp" alt=""></li>
+                <li><img src="./static/image/shop2t4.webp" alt=""></li>
+                <li><img src="./static/image/shop2t5.webp" alt=""></li>
+            </ul>
+        </div>
+        <div class="middle">
+            <img src="./static/image/shop2t1.webp" alt="">
+        </div>
+    </div>
+    <div class="large">
+
+    </div>
+    <script>
+        const small=document.querySelector('.small')
+        const middle=document.querySelector('.middle')
+        small.addEventListener('mouseover',function(e){
+            if(e.target.tagName === 'IMG'){
+                //console.log(111);
+                this.querySelector('.active').classList.remove('active')
+                e.target.parentNode.classList.add('active')
+                middle.querySelector('img').src=e.target.src
+            }
+        })
+        
+    </script>
+    <script>
+        let min=1
+        let max=10
+        function isempty(){
+            let inp = document.getElementById('inp').value;
+            if (inp == null) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        function jian() {
+            var inp = parseInt(document.getElementById('inp').value);
+            if (inp <= min) {
+                alert('输入值至少为' + min)
+ 
+            } else {
+                inp -= 1;
+                if (inp <= 1) {
+                    document.getElementById('inp').value = min
+                } else {
+                    document.getElementById('inp').value = inp;
+                }
+            }
+        }
+        function jia() {
+            var inp = parseInt(document.getElementById('inp').value);
+            if (inp > max) {
+                alert('输入最大值为' + max);
+            } else {
+                inp += 1;
+                document.getElementById('inp').value = inp;
+               
+            }
+        }
+
+    </script>
+    <script>
+         function  wl(){
+            let inp = document.getElementById('wh')
+            if(inp.style.color === "black")
+            {
+                inp.style.color = "wheat";
+            }
+            else inp.style.color = "black"
+           }
+        function  bl(){
+            let inp = document.getElementById('bh')
+            if(inp.style.color === "black")
+            {
+                inp.style.color = "wheat";
+            }
+            else inp.style.color = "black"
+
+           }
+        function  rl(){
+            let inp = document.getElementById('rh')
+            if(inp.style.color === "black")
+            {
+                inp.style.color = "wheat";
+            }
+            else inp.style.color = "black"
+
+           }
+        function  ul(){
+            let inp = document.getElementById('uh')
+            if(inp.style.color === "black")
+            {
+                inp.style.color = "wheat";
+            }
+            else inp.style.color = "black"
+
+           }
+    </script>
+    <script>
+        function  n1(){
+           let inp = document.getElementById('nh1')
+           if(inp.style.color === "black")
+           {
+               inp.style.color = "wheat";
+           }
+           else inp.style.color = "black"
+          }
+       function  n2(){
+           let inp = document.getElementById('nh2')
+           if(inp.style.color === "black")
+           {
+               inp.style.color = "wheat";
+           }
+           else inp.style.color = "black"
+
+          }
+       function  n3(){
+           let inp = document.getElementById('nh3')
+           if(inp.style.color === "black")
+           {
+               inp.style.color = "wheat";
+           }
+           else inp.style.color = "black"
+
+          }
+       function  n4(){
+           let inp = document.getElementById('nh4')
+           if(inp.style.color === "black")
+           {
+               inp.style.color = "wheat";
+           }
+           else inp.style.color = "black"
+
+          }
+   </script>
+</body>
+</html>

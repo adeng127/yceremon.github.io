@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./static/css/common.css">
+    <link rel="stylesheet" href="static/css/shopcar.css">
+</head>
+<script>
+    var n="{{one }}"
+    var c="{{color}}"
+    var s="{{size}}"
+    console.log(n);
+    
+
+
+ </script>
+<body>
+
+    
+    
+    <div class="wrap clearfix">
+
+        <table width="100%" class="cartTable" cellspacing="0" cellpadding="10px">
+            <!-- 首行 -->
+            <tr class="title">
+                <td width="50"><input type="checkbox" name="" class="choose_all"></td>
+                <td width="100" class=""><span style="margin-left: -10px;">全选</span></td>
+                <td width="400" style="color: rgba(195, 194, 194, 0.902);">商品信息</td>
+                <td width="150" style="color: rgba(195, 194, 194, 0.902);">单价（元）</td>
+                <td width="150" style="color: rgba(195, 194, 194, 0.902);">数量</td>
+                <td width="150" style="color: rgba(195, 194, 194, 0.902);">规格</td>
+                <td width="150" style="color: rgba(195, 194, 194, 0.902);">金额（元）</td>
+                <td width="80" style="color: rgba(195, 194, 194, 0.902);">操作</td>
+            </tr>
+
+            <!-- 商品具体信息 -->
+            <tr class="row" style="display: none;">
+                <td><input type="checkbox" name="" class="choose"></td>
+                <td class="tal"><a href="#" class="pic"><img src="static/image/shop1.webp" alt=""></a></td>
+                <td class="tal"><a href="#">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</a></td>
+                <td>
+                    <b class="unit">1399.00</b>
+                </td>
+                <td>
+                    <div class="amount">
+                        <a href="#" class="Increase">+</a>
+                        <input type="text" value="1" class="unum">
+                        <a href="#" class="Reduce">-</a>
+                    </div>
+                </td>
+                <td><span id="size-display1">color</span></td>
+                <td><b class="u-price">1399.00</b></td>
+                <td><a href="#" class="btn-del">删除</a></td>
+            </tr>
+            
+            <tr class="row" >
+                <td><input type="checkbox" name="" class="choose"></td>
+                <td class="tal"><a href="#" class="pic"><img src="static/image/shop2.webp" alt=""></a></td>
+                <td class="tal"><a href="#">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</a></td>
+                <td>
+                    <b class="unit">1299.00</b>
+                </td>
+                <td>
+                    <div class="amount">
+                        <a href="#" class="Increase">+</a>
+                        <input type="text" value="1" class="unum">
+                        <a href="#" class="Reduce">-</a>
+                    </div>
+                </td>
+                <td ><span>41</span></td>
+                <td><b class="u-price">1299.00</b></td>
+                <td><a href="#" class="btn-del">删除</a></td>
+            </tr>
+            <tr class="row" >
+                <td><input type="checkbox" name="" class="choose"></td>
+                <td class="tal"><a href="#" class="pic"><img src="static/image/shop2.webp" alt=""></a></td>
+                <td class="tal"><a href="#">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</a></td>
+                <td>
+                    <b class="unit">1299.00</b>
+                </td>
+                <td>
+                    <div class="amount">
+                        <a href="#" class="Increase">+</a>
+                        <input type="text" value="1" class="unum">
+                        <a href="#" class="Reduce">-</a>
+                    </div>
+                </td>
+                <td ><span>41</span></td>
+                <td><b class="u-price">1299.00</b></td>
+                <td><a href="#" class="btn-del">删除</a></td>
+            </tr>
+            <tr class="row" >
+                <td><input type="checkbox" name="" class="choose"></td>
+                <td class="tal"><a href="#" class="pic"><img src="static/image/shop2.webp" alt=""></a></td>
+                <td class="tal"><a href="#">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</a></td>
+                <td>
+                    <b class="unit">1299.00</b>
+                </td>
+                <td>
+                    <div class="amount">
+                        <a href="#" class="Increase">+</a>
+                        <input type="text" value="1" class="unum">
+                        <a href="#" class="Reduce">-</a>
+                    </div>
+                </td>
+                <td ><span>41</span></td>
+                <td><b class="u-price">1299.00</b></td>
+                <td><a href="#" class="btn-del">删除</a></td>
+            </tr>
+            <tr class="row" >
+                <td><input type="checkbox" name="" class="choose"></td>
+                <td class="tal"><a href="#" class="pic"><img src="static/image/shop2.webp" alt=""></a></td>
+                <td class="tal"><a href="#">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</a></td>
+                <td>
+                    <b class="unit">1299.00</b>
+                </td>
+                <td>
+                    <div class="amount">
+                        <a href="#" class="Increase">+</a>
+                        <input type="text" value="1" class="unum">
+                        <a href="#" class="Reduce">-</a>
+                    </div>
+                </td>
+                <td ><span>41</span></td>
+                <td><b class="u-price">1299.00</b></td> 
+                <td><a href="#" class="btn-del">删除</a></td>
+            </tr>
+          
+     
+            
+            <tr class="count">
+                <td colspan="7">
+                    <div class="jiesuan clearfix">
+                        <div class="left fl">
+                            <p><input type="checkbox" name="" class="choose_all"> 全选&nbsp;&nbsp;&nbsp;<a href="#" class="del_check">删除选中商品</a></p>
+                        </div>
+                        <div class="right fr clearfix">
+                            <p>已选商品<span class="red t-number"> 0 </span>件 总价(不含运费、税费)：<span class="red t-price">￥0.00</span></p>
+                            <!-- <div><a href="#" class="btn pay">结算</a></div> -->
+                            <a href="#" class="btn pay fr" onclick="onel()">结算</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>    
+    <div style="height: 300px;" >
+
+    </div>
+    <div class="endll" style="position:fixed; bottom:0; color: rgb(69, 68, 68);">
+        <br>
+        <h3 style="text-align: center; color: rgba(95, 94, 94, 0.902);">欢迎来到运动服饰</h3>
+       
+        <p style="text-align: center; color: rgba(95, 94, 94, 0.902);" >
+            热线电话：400-821-5065
+            周一至周日 9:00-18:00
+            联系在线客服
+            周一至周日 9:00-23:30
+            企业团购：400-821-5065
+            周一至周日 9:00-18:00
+            客服邮箱：cs.ecom.cn@puma.c
+        </p>
+        <p style="text-align: center; color: rgba(95, 94, 94, 0.902);">
+            帮助中心
+            退换货规则
+            个人信息保护政策
+            使用条款
+            关于活动
+            订单查询
+        </p>
+        <p style="text-align: center; color: rgba(95, 94, 94, 0.902);">
+            公司简介
+            公司新闻
+            投资者
+            可持续性发展
+            工作机会
+            员工福利
+        </p>
+    </div>
+    
+    
+
+
+
+
+
+
+
+    
+    <!-- 引入JS文件 -->
+    <script src="static/js/shopcar.js"></script>
+</body>
+
+</html>

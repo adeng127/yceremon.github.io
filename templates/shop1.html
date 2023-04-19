@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/base.css">
+    <link rel="stylesheet" href="./static/css/common.css">
+    <link rel="stylesheet" href="./static/css/shop.css">
+      <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" 
+      crossorigin="anonymous">
+  
+      <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->  
+      <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" 
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+      crossorigin="anonymous"></script>
+  
+      <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" 
+      crossorigin="anonymous"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="fastN">
+        <div class="pageM">
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="shopcar.html">购物车</a></li> 
+                <li><a href="shopN.html">男士运动</a></li>
+                <li><a href="shopN.html">女士运动</a></li>  
+                <li><a href="./enlo.html">注册</a></li>
+                <li><a href="./enlo.html">登录</a></li>
+            </ul>
+        </div>
+        <div class="searchp">
+            <input type="search" placeholder="小米">
+            <ul class="lip">
+                <li><a href="">1号</a></li>
+                <li><a href="">2号</a></li>
+                <li><a href="">3号</a></li>
+                <li><a href="">4号</a></li>
+                <li><a href="">5号</a></li>
+                <li><a href="">6号</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class=".container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="small">
+                    <ul>
+                        <li class="active"><img src="./static/image/shop1t1.webp" alt=""></li>
+                        <li><img src="./static/image/shop1t2.webp" alt=""></li>
+                        <li><img src="./static/image/shop1t3.webp" alt=""></li>
+                        <li><img src="./static/image/shop1t4.webp" alt=""></li>
+                        <li><img src="./static/image/shop1t5.webp" alt=""></li>
+                    </ul>
+                </div>
+                    <div class="middle">
+                         <img src="./static/image/shop1t1.webp" alt=""> 
+                    </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" >
+                <div class="col-md-6">
+                    <h2>【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</h2>
+                    <hr> 
+                    <h3 class="text-danger"><strong>￥1399.00</strong></h3>
+                    <h4 class="text-muted"><del>￥1499.00</del></h4>
+                <p class="text-info">优惠：您已参与清明节优惠活动</p> 
+                </div>    
+            </div>
+            <div class="col-md-6">
+                <a class="text-muted">选择颜色:</a><br>
+                <div class="btn-group">
+                    <ul class="colorl list-inline">
+                        <li><button class="whitel" onclick="wl()" name="color" id="wh">白色</button></li>
+                        <li><button class="blackl" onclick="bl()"name="color" id="bh">黑色</button></li>
+                        <li><button class="redl" onclick="rl()"name="color" id="rh">红色</button></li>
+                        <li><button class="bluel" onclick="ul()"name="color" id="uh">蓝色</button></li>
+                    </ul>
+                  </div><br>
+                <a class="text-muted">码数:</a><br>
+                <div class="btn-group">
+                    <ul class="colorl list-inline">
+                        <li><button class="n1l" onclick="n1()" name="size" id="nh1">40</button></li>
+                        <li><button class="n2l" onclick="n2()"name="size" id="nh2">41</button></li>
+                        <li><button class="n3l"   onclick="n3()"name="size" id="nh3">42</button></li>
+                        <li><button class="n4l" onclick="n4()"name="size" id="nh4">43</button></li>
+                    </ul>
+                  </div><br>
+            </div> 
+         
+            <div class="col-md-6" style="margin-top: 20px;">
+                <input type="button" value="立即购买" class="insh">
+                <input type="button" name="1" value="加购物车" class="incar"onclick="addToCart()">
+            </div> 
+           
+        </div>
+
+        <div class=".container-fluid">
+                <div class="end">
+                    <br>
+                    <h3 class="text-muted">欢迎来到运动服饰</h3>
+                    <hr>
+                    <p class="text-muted" >
+                        热线电话：400-821-5065
+                        周一至周日 9:00-18:00
+                        联系在线客服
+                        周一至周日 9:00-23:30
+                        企业团购：400-821-5065
+                        周一至周日 9:00-18:00
+                        客服邮箱：cs.ecom.cn@puma.c
+                    </p>
+                    <p class="text-muted">
+                        帮助中心
+                        退换货规则
+                        个人信息保护政策
+                        使用条款
+                        关于活动
+                        订单查询
+                    </p>
+                </div>
+        </div>
+        
+    </div>
+    <script>
+         
+        function addToCart() {
+            // 获取元素的值
+            var one = document.querySelector('[name="1"]').getAttribute('name');
+            // 发送数据
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/server");
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                window.location.href = "demo.html"; 
+                }
+            };
+           
+            xhr.send(JSON.stringify({
+                color: selectedColor,
+                size: selectedSize,
+                one:one,
+
+            }));
+        }
+        </script>
+    <script>
+        const small=document.querySelector('.small')
+        const middle=document.querySelector('.middle')
+        small.addEventListener('mouseover',function(e){
+            if(e.target.tagName === 'IMG'){
+                //console.log(111);
+                this.querySelector('.active').classList.remove('active')
+                e.target.parentNode.classList.add('active')
+                middle.querySelector('img').src=e.target.src
+            }
+        })
+    </script>
+    <script>
+        var selectedColor = null;
+            
+             function  wl(){
+                let inp = document.getElementById('wh')
+                selectedColor = '白色';
+                if(inp.style.color === "black")
+                {
+                    inp.style.color = "wheat";
+                }
+                else inp.style.color = "black"
+               }
+            function  bl(){
+                let inp = document.getElementById('bh')
+                selectedColor = '黑色';
+                if(inp.style.color === "black")
+                {
+                    inp.style.color = "wheat";
+                }
+                else inp.style.color = "black"
+    
+               }
+            function  rl(){
+                let inp = document.getElementById('rh')
+                selectedColor = '红色';
+                if(inp.style.color === "black")
+                {
+                    inp.style.color = "wheat";
+                }
+                else inp.style.color = "black"
+    
+               }
+            function  ul(){
+                let inp = document.getElementById('uh')
+                selectedColor = '蓝色';
+                if(inp.style.color === "black")
+                {
+                    inp.style.color = "wheat";
+                }
+                else inp.style.color = "black"
+    
+               }
+        </script>
+        <script>
+            var selectedSize = null;
+            function  n1(){
+               let inp = document.getElementById('nh1')
+               selectedSize = 40;
+               if(inp.style.color === "black")
+               {
+                   inp.style.color = "wheat";
+               }
+               else inp.style.color = "black"
+              }
+           function  n2(){
+               let inp = document.getElementById('nh2')
+               selectedSize = 41;
+               if(inp.style.color === "black")
+               {
+                   inp.style.color = "wheat";
+               }
+               else inp.style.color = "black"
+    
+              }
+           function  n3(){
+               let inp = document.getElementById('nh3')
+               selectedSize = 42;
+               if(inp.style.color === "black")
+               {
+                   inp.style.color = "wheat";
+               }
+               else inp.style.color = "black"
+    
+              }
+           function  n4(){
+               let inp = document.getElementById('nh4')
+               selectedSize = 43;
+               if(inp.style.color === "black")
+               {
+                   inp.style.color = "wheat";
+               }
+               else inp.style.color = "black"
+    
+              }
+       </script>
+ 
+   
+    <!-- Single button -->
+
+</body>
+</html>
+
+
+

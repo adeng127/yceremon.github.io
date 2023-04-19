@@ -1,0 +1,367 @@
+/*各个页面相同的css*/
+/*页面中心*/
+/*快捷导航*/
+.fastN{
+    width: 100%;
+    height: 90px;
+    position: relative;
+    background-color: rgba(29, 24, 24, 0.902);
+}
+.searchp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fastN .pageM ul{
+    float: right;
+}
+.fastN .pageM li{
+    float: left;
+    line-height: 80px;
+}
+.fastN .pageM a{
+    padding: 0 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-right: 1px solid #bb9d7a;
+}
+/*头部*/
+.toggle{
+    text-align:center;
+  
+}
+.toggle .right{
+    line-height: 650px;
+    position: absolute; 
+    right: 0;
+}
+.toggle .left{
+    line-height: 650px;
+    position: absolute; 
+    left: 0;
+}
+.ad1{
+    width: 100%;
+    height: 700px;
+    text-align:center;
+    background-color: black;
+}
+.ad1 img{
+    width: 100%;
+    height: 100%;
+}
+.searchp ul{
+    width: 255px;
+    display:none;
+    position: absolute; 
+    border: 2px solid #524a4a;
+    top: 40px;
+    border-radius: 10px; 
+}
+.searchp input{
+    width: 255px;
+    height: 40px;
+    border-radius: 10px; 
+}
+.searchadd{
+    border: 1px solid #524a4a;
+}
+.shop1{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+}
+.shop1p1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left: 10%; 
+}
+.shop2p1 img{
+    width: 100%;
+    height: 100%;
+}
+.shop1p2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left: 30%; 
+}
+.shop1p3{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left: 50%; 
+}
+.shop1p4{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left: 70%; 
+}
+.shop1 img{
+    width: 100%;
+    height: 100%;
+}
+.shopt1{
+    width: 300px;
+    position: absolute;
+    top: 1209px;
+    left: 10%; 
+    border-top: 2px solid #18140f;
+}
+.shopt1 p{
+    color: #18140f;
+}
+.shopt2{
+    width: 300px;
+    position: absolute;
+    top: 1209px;
+    left: 30%; 
+    border-top: 2px solid #18140f;
+}
+.shopt2 p{
+    color: #18140f;
+}
+.shopt3{
+    width: 300px;
+    position: absolute;
+    top: 1209px;
+    left: 50%; 
+    border-top: 2px solid #18140f;
+}
+.shopt3 p{
+    color: #18140f;
+}
+.shopt4{
+    width: 300px;
+    position: absolute;
+    top: 1209px;
+    left: 70%; 
+    border-top: 2px solid #18140f;
+}
+.shopt4 p{
+    color: #18140f;
+}
+.shop2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+.shop2p1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 2200px;
+    left: 10%; 
+}
+.shop2p1 img{
+    width: 100%;
+    height: 100%;
+}
+.shop2p2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 2200px;
+    left: 30%; 
+}
+.shop2p2 img{
+    width: 100%;
+    height: 100%;
+}
+.shop2p3{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 2200px;
+    left: 50%; 
+}
+.shop2p3 img{
+    width: 100%;
+    height: 100%;
+}
+.shop2p4{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 2200px;
+    left: 70%; 
+}
+.shop2p4 img{
+    width: 100%;
+    height: 100%;
+}
+.shopt21{
+    width: 300px;
+    position: absolute;
+    top: 2503px;
+    left: 10%; 
+    border-top: 2px solid #18140f;
+}
+.shopt21 p{
+    color: #18140f;
+}
+.shopt22{
+    width: 300px;
+    position: absolute;
+    top: 2503px;
+    left: 30%; 
+    border-top: 2px solid #18140f;
+}
+.shopt22 p{
+    color: #18140f;
+}
+.shopt23{
+    width: 300px;
+    position: absolute;
+    top: 2503px;
+    left: 50%; 
+    border-top: 2px solid #18140f;
+   
+}
+.shopt23 p{
+    color: #18140f;
+}
+
+.shopt24{
+    width: 300px;
+    position: absolute;
+    top: 2503px;
+    left: 70%; 
+    border-top: 2px solid #18140f;
+   
+}
+.shopt24 p{
+    color: #18140f;
+}
+
+.shop3{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+.shop3p1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 3500px;
+    left: 10%; 
+}
+.shop3p1 img{
+    width: 100%;
+    height: 100%;
+}
+.shop3p2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 3500px;
+    left: 30%; 
+}
+.shop3p2 img{
+    width: 100%;
+    height: 100%;
+}
+.shop3p3{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 3500px;
+    left: 50%; 
+}
+.shop3p3 img{
+    width: 100%;
+    height: 100%;
+}
+.shop3p4{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 3500px;
+    left: 70%; 
+}
+.shop3p4 img{
+    width: 100%;
+    height: 100%;
+}
+.shopt31{
+    width: 300px;
+    position: absolute;
+    top: 3803px;
+    left: 10%; 
+    border-top: 2px solid #18140f;
+   
+}
+.shopt31 p{
+    color: #18140f;
+}
+.shopt32{
+    width: 300px;
+    position: absolute;
+    top: 3803px;
+    left: 30%; 
+    border-top: 2px solid #18140f;
+   
+}
+.shopt32 p{
+    color: #18140f;
+}
+
+.shopt33{
+    width: 300px;
+    position: absolute;
+    top: 3803px;
+    left: 50%; 
+    border-top: 2px solid #18140f;
+   
+}
+.shopt33 p{
+    color: #18140f;
+}
+
+.shopt34{
+    width: 300px;
+    position: absolute;
+    top: 3803px;
+    left: 70%; 
+    border-top: 2px solid #18140f;
+   
+}
+.shopt34 p{
+    color: #18140f;
+}
+.end{
+    height: 300px;
+    text-align: center;
+    background-color: rgb(218, 193, 193);
+}
+
+.endt{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.endl
+    {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(29, 24, 24, 0.902);
+    }
+    .endll
+    {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(29, 24, 24, 0.902);
+    }
+
+
+
+
+
+

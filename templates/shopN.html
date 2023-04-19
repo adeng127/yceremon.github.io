@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/base.css">
+    <link rel="stylesheet" href="./static/css/common.css">
+    <link rel="stylesheet" href="./static/css/shop.css">
+      <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" 
+      crossorigin="anonymous">
+  
+      <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->  
+      <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" 
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+      crossorigin="anonymous"></script>
+  
+      <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" 
+      crossorigin="anonymous"></script>
+    <style>
+      .col-md-6 img{
+        width: 100%;
+        height: 100%;
+      }
+      .aside {
+            position: fixed;
+            left: 0%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+ 
+        .item {
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            padding: 0 10px;
+            cursor: pointer;
+            border: solid 0px black;
+            margin-top: 5px;
+        }
+        .active {
+            background-color: rgb(11, 0, 0);
+            color: #fff;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+ 
+    </style>
+</head>
+<body>
+  <div class="fastN">
+    <div class="pageM">
+        <ul>
+          <li><a href="index.html">主页</a></li> 
+            <li><a href="shopcar.html">购物车</a></li> 
+            <li><a href="shopN.html">男士运动</a></li>
+            <li><a href="shopN.html">女士运动</a></li>  
+            <li><a href="./enlo.html">注册</a></li>
+            <li><a href="./enlo.html">登录</a></li>
+        </ul>
+    </div>
+    <div class="searchp">
+        <input type="search" placeholder="小米">
+        <ul class="lip">
+            <li><a href="">1号</a></li>
+            <li><a href="">2号</a></li>
+            <li><a href="">3号</a></li>
+            <li><a href="">4号</a></li>
+            <li><a href="">5号</a></li>
+            <li><a href="">6号</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="container content">
+      <div class="neirong content1"></div><h2>最新商品：</h2>
+      <div class="row">
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop1.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop2.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop3.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop5.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop5.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop8.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop2.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop8.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+    </div> <br><br>
+    <div class="neirong content2"></div><h2>休闲娱乐：</h2>
+      <div class="row">
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop1.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop2.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop3.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop5.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop5.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop8.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop2.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop8.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+    </div> <br><br>
+    <div class="neirong content3"></div><h2>实战运动：</h2>
+      <div class="row">
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop1.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop2.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop3.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop5.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop5.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop8.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop2.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop8.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+    </div>  <br><br>
+    <div class="neirong content4"></div><h2>居家简约：</h2>
+      <div class="row">
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop1.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop2.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop3.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+          <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop5.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop5.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop8.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+      </div> <br>
+      <div class="row">
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop2.webp" alt="">【2023新品】韦德之道10-ART男子中帮篮球专业比赛鞋ABAS115-01</div>
+        <div class="col-md-6" style="height: 500px;"><img src="./static/image/shop8.webp" alt="">【2023新品】JIMMY BUTLER 1大学男子轻量高回弹篮球专业比赛鞋ABAS051-02</div>
+    </div> 
+  
+   </div>
+    <!-- 电梯导航开始 -->
+    <div class="aside" style="display: none;">
+      <div class="item active">最新商品</div>
+      <div class="item">休闲娱乐</div>
+      <div class="item">实战运动</div>
+      <div class="item">居家简约</div>
+    </div>
+    <!-- 电梯导航结束 -->
+   
+
+
+    
+      <div class="end">
+          <br>
+          <h3 class="text-muted">欢迎来到运动服饰</h3>
+          <hr>
+          <p class="text-muted" >
+              热线电话：400-821-5065
+              周一至周日 9:00-18:00
+              联系在线客服
+              周一至周日 9:00-23:30
+              企业团购：400-821-5065
+              周一至周日 9:00-18:00
+              客服邮箱：cs.ecom.cn@puma.c
+          </p>
+          <p class="text-muted">
+              帮助中心
+              退换货规则
+              个人信息保护政策
+              使用条款
+              关于活动
+              订单查询
+          </p>
+      </div>
+              
+    <script>
+         // 1.获取元素
+         let items = document.querySelectorAll('.item');
+ 
+        // 内容盒子获取
+        let neirongs = document.querySelectorAll('.neirong');
+
+        
+
+        
+
+        // 2.左侧aside 模块点击谁，谁高亮
+        for(let i = 0;i < items.length;i++){
+            items[i].addEventListener('click',function(){
+                //找到上一个active类
+                document.querySelector('.aside .active').classList.remove('active');
+                //点击谁谁添加类
+                this.classList.add('active');
+                // 3.右侧内容耿穗走动，让页面滚动到对应的offsetTop值
+                // console.log(neirongs[i].offsetTop);
+                document.documentElement.scrollTop = neirongs[i].offsetTop;
+                // neirongs[i].getBoundingClientRect().top = 0;
+                // console.log(neirongs[i].getBoundingClientRect().top);
+            });
+
+        }
+
+        
+
+
+
+
+        //滚动页面
+        window.addEventListener('scroll',function(e){
+            
+            // console.log(this.pageYOffset);
+            // console.log(neirongs[neirongs.length-1].getBoundingClientRect().top);
+
+              //显示导航栏     getBoundingClientRect().top 元素上边距离页面上边的距离
+            if(this.pageYOffset >= neirongs[0].getBoundingClientRect().top && this.pageYOffset >= -neirongs[0].offsetHeight){
+                items[0].parentNode.style.display = 'block';
+                // console.log(this.pageYOffset);
+            }
+              //隐藏导航栏
+            if(this.pageYOffset < neirongs[0].getBoundingClientRect().top || neirongs[neirongs.length-1].getBoundingClientRect().top <= -neirongs[0].offsetHeight){
+                items[0].parentNode.style.display = 'none';
+            }
+            
+            for(let i = 0;i < neirongs.length;i++){
+                //页面滚动到相应位置，电梯导航按钮添加active类
+                if(neirongs[i].getBoundingClientRect().top < 0 && neirongs[i].getBoundingClientRect().top > -neirongs[0].offsetHeight){
+                    document.querySelector('.aside .active').classList.remove('active');
+
+                    items[i].classList.add('active');
+                }
+            }
+            
+        })
+
+
+      
+
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
