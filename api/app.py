@@ -1,6 +1,6 @@
-from flask import Flask,request, render_template, redirect, session, jsonify, url_for
+from flask import Flask,request, render_template, redirect, session
 import requests,random
-from werkzeug.security import generate_password_hash
+
 from flask_sqlalchemy import SQLAlchemy
 from os import urandom
 import os.path
