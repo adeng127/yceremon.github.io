@@ -1,5 +1,5 @@
 from flask import Flask,request, render_template, redirect, session
-import requests,random
+import random
 
 from flask_sqlalchemy import SQLAlchemy
 from os import urandom
