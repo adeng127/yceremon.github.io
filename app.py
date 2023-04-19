@@ -233,7 +233,9 @@ def enlo():
     return render_template("enlo.html")
 
 
-
+def handler(environ, start_response):
+    response = app(environ, start_response)
+    return response
 
 
 
