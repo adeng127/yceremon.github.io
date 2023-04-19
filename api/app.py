@@ -233,16 +233,10 @@ def enlo():
     return render_template("enlo.html")
 
 
-def handler(environ, start_response):
-    response = app(environ, start_response)
-    return response
-
-
-
 if __name__ == '__main__':
     # 设置输出SQLAlchemy执行的SQL语句
     app.config['SQLALCHEMY_ECHO'] = True
-    app.run(debug=True)
+    
 
 
 
